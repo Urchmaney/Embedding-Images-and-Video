@@ -80,11 +80,8 @@ body{
 
 #secondary-info{
     display: flex;
-    padding: 10px;
-    
+    padding: 10px; 
 }
-
-
 
 #secondary-info div{
     width: 80%;
@@ -93,15 +90,58 @@ body{
 
 #secondary-info button{
     background-color: red;
-    padding:20px;
     border:none;
     border-radius: 3px;
+    height: 35px;
 }
 
 #secondary-info p:first-child{
    font-weight: bold;
 }
+#sorting-icon{
+    height: 20px;
+}
+#comments-header{
+    display: flex;
+}
+#comments-header p:first-child{
+    margin-right: 20px;
+}
 
+.video-comment{
+    display: flex;
+    margin-bottom: 25px;
+}
+.video-comment img {
+    height: 48px;
+    margin-right: 5px;
+} 
+#add-public-comment{
+    background-color: whitesmoke;
+    border: none;
+    border-bottom: 1px solid #CCC;
+    color: #555;
+    box-sizing: border-box;
+    font-family: 'Arvo';
+    font-size: 18px;
+    height: 50px;
+    left: 50%;
+    /* margin: -25px 0 0 -100px; */
+    padding: 10px 0px;
+    /* position: relative; */
+    top: 50%;
+    width: 200px;
+  
+  }
+  
+.video-comment p:first-of-type {
+    font-weight: bold;
+}
+
+.comment-date {
+    font-weight: lighter;
+    color:gray;
+}
 
 .switch {
     position: relative;
