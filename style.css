@@ -12,7 +12,27 @@ body{
 #main-body{
     background-color: red;
     margin:10px 20px ;
+   
+    height: 10000px;
+}
+
+#main{
+    display:flex;
+    width: 100%;
+}
+
+#video-container{
+    background-color: brown;
     height: 800px;
+    width: 60%;
+    flex: 2;
+}
+
+#nav-bar{
+    background-color: blueviolet;
+    height: 600px;
+    width: 40%;
+    flex: 1;
 }
 
 #search-bar{
