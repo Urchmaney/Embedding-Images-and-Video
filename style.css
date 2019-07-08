@@ -77,6 +77,32 @@ body{
     flex :2;
 }
 
+
+#secondary-info{
+    display: flex;
+    padding: 10px;
+    
+}
+
+
+
+#secondary-info div{
+    width: 80%;
+    margin-left: 10px;
+}
+
+#secondary-info button{
+    background-color: red;
+    padding:20px;
+    border:none;
+    border-radius: 3px;
+}
+
+#secondary-info p:first-child{
+   font-weight: bold;
+}
+
+
 .switch {
     position: relative;
     display: inline-block;
