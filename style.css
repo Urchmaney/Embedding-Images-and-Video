@@ -61,7 +61,21 @@ body{
     margin-top: 7px;
 }
 
-
+.video-description-icons{
+    height: 15px;
+}
+/* #video-description{
+    
+} */
+#video-title{
+    width: 100%;
+}
+#video-primary-info{
+    display: flex;
+}
+#video-primary-info p{
+    flex :2;
+}
 
 .switch {
     position: relative;
