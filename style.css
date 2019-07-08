@@ -35,9 +35,11 @@ body{
 #search-bar{
     background-color: blue;    
     height: 80px;
+    width:100%;
     display: flex;
     align-items:center;
     justify-content: space-between;
+    position: fixed;
 }
 .navbar-icons {
    height: 30px;
@@ -141,6 +143,25 @@ body{
 .comment-date {
     font-weight: lighter;
     color:gray;
+}
+
+
+
+
+
+
+
+#toggle-bar{
+  height: 100%; 
+  width: 0;
+  position: fixed; 
+  z-index: 1; 
+  top: 0;
+  left: 0;
+  background-color: #111; 
+  overflow-x: hidden; 
+  padding-top: 60px; 
+  transition: 0.5s; 
 }
 
 .switch {
