@@ -157,7 +157,7 @@ body{
     height: 30px;
 }
 
-#toggle-bar-guide-section{
+.toggle-bar-guide-section{
     border-bottom: 2px solid gray;
 }
 .toggle-bar-guide-element{
