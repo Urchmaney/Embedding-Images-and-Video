@@ -147,18 +147,32 @@ body{
 
 
 
+.side-bar-button{
+    background-color: transparent;
+    border:none;
+    font-size: 25px;
+    padding:10px;
+}
 
+#toggle-bar-header{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid gray ;
+}
 
-
+.svg-container{
+    width:70%;
+}
 
 #toggle-bar{
   height: 100%; 
-  width: 0;
+  width: 20%;
   position: fixed; 
+  display:none;
   z-index: 1; 
   top: 0;
   left: 0;
-  background-color: #111; 
+  background-color: white; 
   overflow-x: hidden; 
   padding-top: 60px; 
   transition: 0.5s; 
