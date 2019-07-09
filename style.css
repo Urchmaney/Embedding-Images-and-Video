@@ -118,6 +118,22 @@ body{
     height: 48px;
     margin-right: 5px;
 } 
+.toggle-bar-icon{
+    height: 30px;
+}
+
+#toggle-bar-guide-section{
+    border-bottom: 2px solid gray;
+}
+.toggle-bar-guide-element{
+    display: flex;
+    align-items:center;
+}
+.toggle-bar-guide-element svg{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
 #add-public-comment{
     background-color: whitesmoke;
     border: none;
