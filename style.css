@@ -46,8 +46,13 @@ body{
     left:0;
    
 }
-
-
+#search-bar-button-logo-wrapper{
+    display: flex;
+    align-items: center;
+}
+#side-bar-button{
+    float: left;
+}
 #search-bar-form{
     width: 60%;
     align-items: center;
@@ -182,8 +187,11 @@ body{
     top: 50%;
     width: 200px;
   
-  }
-  
+}
+
+.recommend , .next-video-author{
+    color:#a06e69;
+}
 .video-comment p:first-of-type {
     font-weight: bold;
 }
